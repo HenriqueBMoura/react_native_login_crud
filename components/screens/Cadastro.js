@@ -118,7 +118,6 @@ const Cadastro = ( props ) => {
                 title='Salvar' />
         </SafeAreaView>
     )
-
 }
 
 export default Cadastro
