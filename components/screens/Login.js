@@ -21,13 +21,6 @@ import { read } from '../../DB'
 
 const Login = ( props ) => {
 
-    // const styles = StyleSheet.create({
-    //     logo: {
-    //       width: 66,
-    //       height: 58
-    //     }
-    //   })
-
     const [usuario, setUsuario] = useState('')
     const [senha, setSenha] = useState('')
 
