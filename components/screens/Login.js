@@ -1,8 +1,7 @@
 
 import React,{
     useState
-}
- from 'react'
+} from 'react'
 
 import {
     Image,
