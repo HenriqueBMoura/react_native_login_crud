@@ -70,8 +70,11 @@ const Login = ( props ) => {
         <SafeAreaView style={{ padding : 16 }}>
 
             <Image
-                source={{ uri: '../../assets/logo.png' }}
-                style={{ width: 50, height: 100 }} />
+                source={require('../../assets/logo.png')}
+                style={{ width: '100%', 
+                        height: 80,
+                        marginTop : 70,
+                        marginBottom : 60 }} />
             
             <Text>Informe seu usuário</Text>
             <Input
